@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main{
+        width: 100%;
+        background:  url(./background-img.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 109vh;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between
+    }
+    ul{
+        /* float: left; */
+        display: flex;
+       
+       
+       
+    }
+    ul li{
+        list-style: none;
+        margin-left: 100px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+        color: orange;
+    }  
+    .form{
+        text-align: center;
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        top: 150px;
+        left: 700px;
+        border-radius: 10px;
+        padding: 25px;
+        background: linear-gradient(to top, rgba(43, 43, 42, 0.425)50%, rgba(43, 43, 42, 0.425)50%);
+        
+    
+    }
+    .box{
+        height: 25px;
+        width: 150px;
+    }
+    .login{
+        height: 25px;
+        width: 50px;
+        
+    }
+    .footer{
+        margin-top: 40%;
+        color: blue;
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="left">
+            <img src="./logo1.jpg"> 
+            </div>
+            <div class="right">
+               <ul>
+                <li ><a href="./Homepage.html">HOME</a></li>
+                <li ><a href="./nutrition.html">NUTRITION</a></li>
+                <li ><a href="./blog.html">BLOG</a></li>
+                <li ><a href="./index.html">LOGOUT</a></li>
+               </ul>
+            </div>
+    
+        </header>
+
+               <form class="form">
+                <input type="email"class="box" placeholder="enter your email" required><br><br>
+                <input type="password" class="box"placeholder="enter your password" required><br><br>
+                 <input type="submit" class="login" value="Login">
+               </form>
+               <footer class="footer">
+                <div> 
+                  <p>Copyright:All rights reserved</p>
+                  <a href="google.com/">google.com</a>  
+                </div>
+            
+            </footer>
+            </div>
+    
+    
+</body>
+</html>
